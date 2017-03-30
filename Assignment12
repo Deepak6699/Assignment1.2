@@ -1,0 +1,22 @@
+package acadgild1;
+
+public class Assign12 {
+
+	public static void main(String[] args) {
+		int a=20;
+		int b=10;
+		int c;
+		int d;
+		int e;
+		System.out.println(""+a);
+		b= a-- - --a;
+		System.out.println("a-- - --a ="+b);
+		c=a--;
+		System.out.println("a-- ="+c);
+		d=a>>2;
+		System.out.println("a>>2 ="+d);
+		e=a&b;
+		System.out.println("a&b ="+e);
+	}
+
+}
